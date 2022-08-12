@@ -1,0 +1,316 @@
+/* ----------------------------------this main-prizes block------------------------------------------- */
+.main-prizes_container {
+  background: #e25e5e;
+  padding-bottom: 50px;
+}
+.main-prizes {
+  position: relative;
+  padding-top: 80px;
+
+  text-align: center;
+}
+.main-prizes h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 106.4%;
+  /* identical to box height, or 68px */
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.main-prizes p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 106.4%;
+  /* or 26px */
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-bottom: 163px;
+}
+.main-prizes_box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.main-prizes_box1 {
+  width: 367px;
+  height: 298px;
+  background: #ffffff;
+  /* effect */
+  box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.17);
+  border-radius: 15px;
+
+  text-align: center;
+}
+.main-prizes_box1 img {
+  padding-top: 112px;
+  padding-bottom: 25px;
+}
+.shef2 {
+  position: absolute;
+  top: 29%;
+  left: 94px;
+}
+
+.main-prizes_box2 {
+  width: 367px;
+  height: 339px;
+  background: #ffffff;
+  /* effect */
+  box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.17);
+  border-radius: 15px;
+}
+.main-prizes_box2 img {
+  padding-top: 153px;
+  padding-bottom: 25px;
+}
+.shef {
+  position: absolute;
+  top: 24%;
+  left: 510px;
+}
+
+.main-prizes_box3 {
+  width: 367px;
+  height: 249px;
+  background: #ffffff;
+  /* effect */
+  box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.17);
+  border-radius: 15px;
+}
+.main-prizes_box3 img {
+  padding-top: 63px;
+  padding-bottom: 25px;
+}
+.shef3 {
+  position: absolute;
+  top: 34%;
+  left: 880px;
+}
+
+.main-prizes_box-container p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 106.4%; /* or 32px */
+  letter-spacing: -0.03em;
+  color: #e25e5e;
+}
+.prizes_set {
+  display: flex;
+  justify-content: center;
+}
+.prizes_set {
+  height: 210px;
+}
+.prizes_set p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 106.4%;
+  /* or 32px */
+  text-align: left;
+  padding: 56px 0px 0px 22px;
+  color: #ffffff;
+}
+.article_p {
+  margin-top: 21px;
+}
+.article_p p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 106.4%;
+  /* identical to box height, or 30px */
+  margin-bottom: 0;
+
+  color: #ffffff;
+}
+.tomat1 {
+  position: absolute;
+  top: -95%;
+  left: -62px;
+}
+.tomat2 {
+  position: absolute;
+  top: -46%;
+  left: 1104px;
+}
+.tomat3 {
+  position: absolute;
+  top: 95%;
+  left: 1104px;
+}
+.tomat4 {
+  position: absolute;
+
+  top: -7%;
+  left: -120px;
+}
+.tomat5 {
+  position: absolute;
+  top: 173%;
+  left: -120px;
+}
+
+@media (max-width: 800px) {
+  .main-prizes h2 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 106.4%;
+    /* identical to box height, or 27px */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+  }
+  br {
+    display: none;
+  }
+  .main-prizes p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 106.4%;
+    /* or 17px */
+
+    text-align: center;
+  }
+  .main-prizes_box-container {
+    flex-wrap: wrap;
+    align-self: center;
+    padding-left: 75px;
+    padding-bottom: 0px;
+  }
+
+  .main-prizes_box1 {
+    order: 2;
+    width: 233px;
+    height: 328px;
+    background: #ffffff;
+    /* effect */
+    box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+
+    text-align: center;
+    margin-bottom: 115px;
+  }
+  .main-prizes_box1 img {
+    padding-top: 149px;
+    padding-bottom: 20px;
+  }
+  .shef2 {
+    position: absolute;
+    top: 37%;
+    left: 100px;
+  }
+
+  .main-prizes_box2 {
+    order: 1;
+    width: 237px;
+    height: 323px;
+    background: #ffffff;
+    box-shadow: 0px 14px 14px rgb(0 0 0 / 17%);
+    border-radius: 15px;
+    margin-bottom: 135px;
+  }
+  .main-prizes_box2 img {
+    padding-top: 153px;
+    padding-bottom: 25px;
+  }
+  .shef {
+    position: absolute;
+
+    top: 11%;
+    left: 115px;
+  }
+
+  .main-prizes_box3 {
+    order: 3;
+    width: 237px;
+    height: 241px;
+    background: #ffffff;
+    /* effect */
+    box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+  }
+  .main-prizes_box3 img {
+    padding-top: 95px;
+    padding-bottom: 20px;
+  }
+  .shef3 {
+    position: absolute;
+    top: 59%;
+    left: 80px;
+  }
+  .main-prizes_box-container p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 106.4%;
+    /* or 21px */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    padding-bottom: 25px;
+  }
+  .prizes_set {
+    display: inline;
+  }
+  .main-prizes p {
+    margin-bottom: 50%;
+  }
+  .main-prizes_container {
+    padding-bottom: 0px;
+  }
+  .prizes_set p {
+    margin-bottom: 0px;
+  }
+  .article_p p {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .tomat3 {
+    display: none;
+  }
+  .tomat4 {
+    display: none;
+  }
+
+  .tomat1 {
+    position: absolute;
+    width: 70px;
+    top: -49%;
+    left: 8px;
+  }
+  .tomat2 {
+    position: absolute;
+    width: 70px;
+    top: -23%;
+    left: 8px;
+  }
+  .tomat5 {
+    position: absolute;
+    width: 70px;
+    top: -35%;
+    left: 284px;
+  }
+}
